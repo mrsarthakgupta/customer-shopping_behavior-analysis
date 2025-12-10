@@ -5,7 +5,7 @@ marvel_heros.push(dc_heros)                             // Pushes entire dc_hero
 // console.log(marvel_heros);           
 // console.log(marvel_heros[3][1]);     
 
-const allHeros = marvel_heros.concat(dc_heros)          // Merges arrays (shallow) 
+const allHeros = marvel_heros.concat(dc_heros)          // Merges arrays(shallow) 
 console.log(allHeros);                  
 
 const all_new_heros = [...marvel_heros, ...dc_heros]    // Spread method to merge arrays (modern way)
@@ -17,7 +17,7 @@ console.log(real_another_array);                         // [1, 2, 3, 4, 5, 6, 7
 
 console.log(Array.isArray("Hitesh"));                    // false – it's a string
 console.log(Array.from("Hitesh"));                       // converts string to array: ['H', 'i', 't', 'e', 's', 'h']
-console.log(Array.from({name: "hitesh"}));               // returns [] because object is not directly iterable here
+console.log(Array.from({name: "hitesh"}));               // returns [] because object is not directly iterable
 
 let score1 = 100
 let score2 = 200
