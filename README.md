@@ -1,1 +1,1 @@
-this is JS repo
+this is JS repository
